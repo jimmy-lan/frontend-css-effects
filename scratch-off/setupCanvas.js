@@ -8,8 +8,8 @@ function setup() {
 }
 
 function draw() {
-  strokeWeight(50);
-  if (mousePressed) {
+  strokeWeight(100);
+  if (mouseIsPressed) {
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
 }
