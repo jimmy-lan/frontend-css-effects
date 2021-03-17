@@ -9,6 +9,9 @@ function setup() {
 
 function draw() {
   strokeWeight(100);
+  // Color of line drawn;
+  // Also the background color because of the blend mode.
+  stroke(242, 145, 0);
   if (mouseIsPressed) {
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
