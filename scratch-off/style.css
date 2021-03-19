@@ -7,6 +7,12 @@
 
 body {
   height: 100vh;
+  overflow: hidden;
+  position: fixed;
+}
+
+html {
+  overflow: hidden;
 }
 
 section {
