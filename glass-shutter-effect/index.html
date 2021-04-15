@@ -9,6 +9,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <section>
+    <h2 id="rangeValue">0</h2>
+    <label>
+      <input type="range" class="range" value="0" min="0" max="100" onmousemove="updateRangeLabel(this.value)" onchange="updateRangeLabel(this.value)"/>
+    </label>
+  </section>
 
+  <script src="script.js"></script>
 </body>
 </html>
