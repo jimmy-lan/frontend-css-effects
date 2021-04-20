@@ -18,7 +18,7 @@ body {
 
 .navigation {
   position: relative;
-  width: 50px;
+  width: 135px;
   height: 50px;
   background: #fff;
   transition: all 0.5s;
@@ -43,14 +43,20 @@ body {
   align-items: center;
   justify-content: flex-end;
   background: #ff4081;
+  color: #fff;
   transition: all 0.5s;
+}
+
+.navigation .toggle .toggle-title {
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 .navigation .toggle.active {
   background: #2196f3;
 }
 
-.navigation .toggle::before {
+.navigation .toggle::after {
   content: "+";
   font-size: 2em;
   display: flex;
@@ -63,6 +69,6 @@ body {
   transition: all 0.5s;
 }
 
-.navigation .toggle.active::before {
+.navigation .toggle.active::after {
   transform: rotate(135deg);
 }
