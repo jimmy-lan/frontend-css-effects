@@ -24,4 +24,32 @@ body {
   transition: all 0.5s;
   z-index: 1000;
   border-radius: 5px;
+  overflow: hidden;
+}
+
+.navigation .toggle {
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #ff4081;
+  transition: all 0.5s;
+}
+
+.navigation .toggle::before {
+  content: "+";
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: 400;
+  transition: all 0.5s;
 }
